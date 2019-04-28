@@ -1,0 +1,16 @@
+server:
+  port: 8888
+
+spring:
+  application:
+    name: msa-study-config-server
+  
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/SonMangeun/Msa_Study
+          #username:
+          #password:
+          search-paths:
+          - config  
