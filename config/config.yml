@@ -1,3 +1,9 @@
+msaconfig:
+  greeting: "hello"
+  topic-name: "coffee-topic"
+  
+--
+
 spring:
   profiles: local
 
