@@ -1,0 +1,15 @@
+spring:
+  profiles: local
+
+msaconfig:
+  greeting: "welcome to local server"
+  topic-name: "coffee-topic-local"
+  
+---
+
+spring:
+  profiles: dev
+
+msaconfig:
+  greeting: "welcome to dev server"
+  topic-name: "coffee-topic-dev"
